@@ -1,0 +1,10 @@
+{
+  "id": "spearman",
+  "name": "Spearman",
+  "eraId": "bronze",
+  "requiresTechId": "bronze-working",
+  "cost": 30,
+  "move": 1,
+  "strength": 7,
+  "garrisonBonusPercent": 50
+}

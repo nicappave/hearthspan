@@ -1,0 +1,32 @@
+{
+  "id": "brennic",
+  "name": "the Brennic",
+  "adjective": "Brennic",
+  "leader": "Chief Oran",
+  "order": 2,
+  "colorIndex": 2,
+  "settlementNameStems": [
+    "Dun",
+    "Kil",
+    "Bal",
+    "Glen",
+    "Car",
+    "Tor",
+    "Lis",
+    "Aber",
+    "Pen",
+    "Ros",
+    "Tre",
+    "Mor"
+  ],
+  "settlementNameEndings": [
+    "an",
+    "more",
+    "dach",
+    "wen",
+    "ock",
+    "garth",
+    "iel",
+    "nock"
+  ]
+}

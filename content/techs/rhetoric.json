@@ -1,0 +1,7 @@
+{
+  "id": "rhetoric",
+  "name": "Rhetoric",
+  "eraId": "classical",
+  "cost": 75,
+  "prereqIds": ["philosophy"]
+}

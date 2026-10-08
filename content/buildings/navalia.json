@@ -1,0 +1,9 @@
+{
+  "id": "navalia",
+  "name": "The Navalia",
+  "eraId": "classical",
+  "requiresTechId": "naval-warfare",
+  "cost": 140,
+  "hero": true,
+  "safetyBonusPercent": 10
+}

@@ -1,0 +1,9 @@
+{
+  "id": "grain-vaults",
+  "name": "The Grain Vaults",
+  "eraId": "neolithic",
+  "requiresTechId": "food-preservation",
+  "cost": 45,
+  "hero": true,
+  "foodBonusPercent": 15
+}

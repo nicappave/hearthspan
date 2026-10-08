@@ -1,0 +1,870 @@
+{
+  "seeds": 200,
+  "turns": 500,
+  "eraTurns": 50,
+  "width": 128,
+  "height": 80,
+  "civCount": 8,
+  "eras": [
+    {
+      "era": 1,
+      "turn": 50,
+      "settlementCount": {
+        "min": 185,
+        "max": 245
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.9469416484439852,
+          "max": 0.9779901573388844
+        },
+        "Hamlet": {
+          "min": 0.032296781232951446,
+          "max": 0.04277141298417894
+        },
+        "Village": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Town": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "City": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 2.5E-10
+        }
+      },
+      "birthsPerTurn": {
+        "min": 3.54,
+        "max": 4.74
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 0.4997511798191441,
+        "max": 2.3233299292234006
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.29912184938328357
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4942325800376648,
+        "max": 3.362170433145009
+      },
+      "ownedFraction": {
+        "min": 0.6161709267161026,
+        "max": 0.7805315050333484
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 8.74,
+        "max": 12.22
+      },
+      "topLegacyScore": {
+        "min": 64.25,
+        "max": 104.75
+      }
+    },
+    {
+      "era": 2,
+      "turn": 100,
+      "settlementCount": {
+        "min": 309.75,
+        "max": 395.25
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.9205495252075009,
+          "max": 0.9841880344380342
+        },
+        "Hamlet": {
+          "min": 0.016980719731921712,
+          "max": 0.06982419503666651
+        },
+        "Village": {
+          "min": 0,
+          "max": 0.011329305135951663
+        },
+        "Town": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "City": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 2.5E-10
+        }
+      },
+      "birthsPerTurn": {
+        "min": 2.155,
+        "max": 3.3850000000000002
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": -0.030000000000000006,
+        "max": 0.39
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 0.9512560373584972,
+        "max": 3.8817904963170795
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.28380160576006275
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4688505747126437,
+        "max": 3.0717471264367817
+      },
+      "ownedFraction": {
+        "min": 0.60883862475928,
+        "max": 0.7628244200632497
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 6.529999999999999,
+        "max": 9.950000000000001
+      },
+      "topLegacyScore": {
+        "min": 130.75,
+        "max": 198.25
+      }
+    },
+    {
+      "era": 3,
+      "turn": 150,
+      "settlementCount": {
+        "min": 407,
+        "max": 503
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.7878533222102267,
+          "max": 0.9772119442536068
+        },
+        "Hamlet": {
+          "min": 0.018678131097181284,
+          "max": 0.191677217817261
+        },
+        "Village": {
+          "min": 0,
+          "max": 0.025925925925925925
+        },
+        "Town": {
+          "min": 0,
+          "max": 0.0030413625304136255
+        },
+        "City": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 2.5E-10
+        }
+      },
+      "birthsPerTurn": {
+        "min": 1.595,
+        "max": 2.585
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 0.010000000000000009,
+        "max": 1.6300000000000001
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.2296014607928685,
+        "max": 4.956530177532163
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.2704861111111111
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4992063092118524,
+        "max": 2.7844562588187864
+      },
+      "ownedFraction": {
+        "min": 0.6093489908447773,
+        "max": 0.7420190907199334
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 6.9350000000000005,
+        "max": 13.325
+      },
+      "topLegacyScore": {
+        "min": 208,
+        "max": 436
+      }
+    },
+    {
+      "era": 4,
+      "turn": 200,
+      "settlementCount": {
+        "min": 477.75,
+        "max": 587.25
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.5725928109448423,
+          "max": 0.9152537670579668
+        },
+        "Hamlet": {
+          "min": 0.06449777337951508,
+          "max": 0.37518555170707574
+        },
+        "Village": {
+          "min": 0.004891586264135283,
+          "max": 0.06019815333540823
+        },
+        "Town": {
+          "min": 0,
+          "max": 0.007197696737044146
+        },
+        "City": {
+          "min": 0,
+          "max": 0.00244140625
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 2.5E-10
+        }
+      },
+      "birthsPerTurn": {
+        "min": 1.215,
+        "max": 2.085
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 0.74,
+        "max": 3.26
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.4060495951095229,
+        "max": 5.724498639023486
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.2681389227258089
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4054232804232805,
+        "max": 2.7189153439153437
+      },
+      "ownedFraction": {
+        "min": 0.5951180875576036,
+        "max": 0.7381192396313364
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 12.325,
+        "max": 19.615
+      },
+      "topLegacyScore": {
+        "min": 395.75,
+        "max": 763.25
+      }
+    },
+    {
+      "era": 5,
+      "turn": 250,
+      "settlementCount": {
+        "min": 545.5,
+        "max": 656.5
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.3926207707057586,
+          "max": 0.801602028824148
+        },
+        "Hamlet": {
+          "min": 0.16101718971381745,
+          "max": 0.5292989094750769
+        },
+        "Village": {
+          "min": 0.011393006960367331,
+          "max": 0.08736486210537985
+        },
+        "Town": {
+          "min": 0,
+          "max": 0.0315315693333669
+        },
+        "City": {
+          "min": 0,
+          "max": 0.004480286738351254
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 0.0020798668885191347
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.935,
+        "max": 1.685
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 1.48,
+        "max": 3.88
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.5657704657441038,
+        "max": 6.153544496263494
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.2623569808960359
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.3811163689517627,
+        "max": 2.7536109803532938
+      },
+      "ownedFraction": {
+        "min": 0.5919728748559179,
+        "max": 0.7411665535554622
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 12.889999999999999,
+        "max": 22.79
+      },
+      "topLegacyScore": {
+        "min": 551.75,
+        "max": 1213.25
+      }
+    },
+    {
+      "era": 6,
+      "turn": 300,
+      "settlementCount": {
+        "min": 603.75,
+        "max": 707.25
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.27461011867251295,
+          "max": 0.6764084483685017
+        },
+        "Hamlet": {
+          "min": 0.24619388321408753,
+          "max": 0.5718474853380131
+        },
+        "Village": {
+          "min": 0.010823611630063245,
+          "max": 0.171107167074909
+        },
+        "Town": {
+          "min": 0.001762124819119637,
+          "max": 0.045243429958455865
+        },
+        "City": {
+          "min": 0,
+          "max": 0.020928462709284626
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 0.00380517503805175
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.755,
+        "max": 1.385
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 1.98,
+        "max": 4.5
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.7215630022640043,
+        "max": 6.587409873542347
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.25714962067838265
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4272151898734178,
+        "max": 2.9145569620253164
+      },
+      "ownedFraction": {
+        "min": 0.6009105248064238,
+        "max": 0.752545167765988
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 14.684999999999999,
+        "max": 27.015
+      },
+      "topLegacyScore": {
+        "min": 749,
+        "max": 1715
+      }
+    },
+    {
+      "era": 7,
+      "turn": 350,
+      "settlementCount": {
+        "min": 647.5,
+        "max": 758.5
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.18085569418446015,
+          "max": 0.5695587383800248
+        },
+        "Hamlet": {
+          "min": 0.3023318399848027,
+          "max": 0.5601640044958761
+        },
+        "Village": {
+          "min": 0.02330772425249169,
+          "max": 0.2691756644518272
+        },
+        "Town": {
+          "min": 0.004380965868210131,
+          "max": 0.05715812819921289
+        },
+        "City": {
+          "min": 0,
+          "max": 0.038908153488159875
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 0.01358695652173913
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.535,
+        "max": 1.285
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 2.3499999999999996,
+        "max": 4.8100000000000005
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.7892463763289448,
+        "max": 6.765745297283386
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.24995857236421598
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.431018353528154,
+        "max": 3.320318068424804
+      },
+      "ownedFraction": {
+        "min": 0.6071913161465401,
+        "max": 0.7789687924016282
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 15.63,
+        "max": 27.689999999999998
+      },
+      "topLegacyScore": {
+        "min": 944,
+        "max": 2534
+      }
+    },
+    {
+      "era": 8,
+      "turn": 400,
+      "settlementCount": {
+        "min": 683.25,
+        "max": 795.75
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.13445684602992283,
+          "max": 0.47547302578706135
+        },
+        "Hamlet": {
+          "min": 0.28814553990610325,
+          "max": 0.5592723004694835
+        },
+        "Village": {
+          "min": 0.0673504585847602,
+          "max": 0.34669141568547057
+        },
+        "Town": {
+          "min": 0.0013806753411568576,
+          "max": 0.10158062885749806
+        },
+        "City": {
+          "min": 0.0031438345467101475,
+          "max": 0.04205249164058957
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 0.03196137471799723
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.48,
+        "max": 1.08
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 2.66,
+        "max": 5.18
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-05,
+        "max": 0.000125
+      },
+      "foodPerCapita": {
+        "min": 1.7763730309356414,
+        "max": 6.987774557759228
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.2473297399767988
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.40706821650816,
+        "max": 3.92936479981214
+      },
+      "ownedFraction": {
+        "min": 0.6133505736646572,
+        "max": 0.8111944270997379
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 16.354999999999997,
+        "max": 27.665000000000003
+      },
+      "topLegacyScore": {
+        "min": 1276.25,
+        "max": 3530.75
+      }
+    },
+    {
+      "era": 9,
+      "turn": 450,
+      "settlementCount": {
+        "min": 711.5,
+        "max": 828.5
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.11317912154795903,
+          "max": 0.3882822898343288
+        },
+        "Hamlet": {
+          "min": 0.25055298186089,
+          "max": 0.5255856061594676
+        },
+        "Village": {
+          "min": 0.10750917943805875,
+          "max": 0.3999541028097062
+        },
+        "Town": {
+          "min": 0.0034684234998085435,
+          "max": 0.1534499617088781
+        },
+        "City": {
+          "min": 0.0013891421106596805,
+          "max": 0.05980336237624424
+        },
+        "Metropolis": {
+          "min": 0,
+          "max": 0.0530632820744761
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.36000000000000004,
+        "max": 0.96
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 2.8549999999999995,
+        "max": 5.405
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.7491186663275688,
+        "max": 7.130351907872056
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.2494382135189904
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.4971405228758168,
+        "max": 4.814297385620915
+      },
+      "ownedFraction": {
+        "min": 0.63767946237654,
+        "max": 0.8443895733632013
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 16.03,
+        "max": 26.53
+      },
+      "topLegacyScore": {
+        "min": 1636,
+        "max": 4594
+      }
+    },
+    {
+      "era": 10,
+      "turn": 500,
+      "settlementCount": {
+        "min": 745.25,
+        "max": 857.75
+      },
+      "tierFraction": {
+        "Ruins": {
+          "min": 0,
+          "max": 2.5E-10
+        },
+        "Camp": {
+          "min": 0.08897294687634914,
+          "max": 0.3288394375525147
+        },
+        "Hamlet": {
+          "min": 0.20512313210764205,
+          "max": 0.47822065659733953
+        },
+        "Village": {
+          "min": 0.14132141125551365,
+          "max": 0.4115415429916157
+        },
+        "Town": {
+          "min": 0.013964770861322584,
+          "max": 0.20603821465890432
+        },
+        "City": {
+          "min": 0,
+          "max": 0.0932500725327072
+        },
+        "Metropolis": {
+          "min": 0.003925438153186845,
+          "max": 0.07303690189815845
+        }
+      },
+      "birthsPerTurn": {
+        "min": 0.32499999999999996,
+        "max": 0.895
+      },
+      "deathsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "promotionsPerTurn": {
+        "min": 2.91,
+        "max": 5.7299999999999995
+      },
+      "demotionsPerTurn": {
+        "min": -2.5E-10,
+        "max": 2.5E-10
+      },
+      "foodPerCapita": {
+        "min": 1.798586691788948,
+        "max": 7.246866467882055
+      },
+      "foodDeficitFraction": {
+        "min": 0,
+        "max": 0.25248189640098645
+      },
+      "ownedToIndependentRatio": {
+        "min": 1.361271226047671,
+        "max": 6.295684686088176
+      },
+      "ownedFraction": {
+        "min": 0.6459920778906628,
+        "max": 0.8854242259313014
+      },
+      "roadTileCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "activeEdictCount": {
+        "min": 0,
+        "max": 2.5E-10
+      },
+      "eventsPerTurn": {
+        "min": 14.385000000000002,
+        "max": 25.994999999999997
+      },
+      "topLegacyScore": {
+        "min": 1924.25,
+        "max": 6266.75
+      }
+    }
+  ]
+}

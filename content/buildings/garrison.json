@@ -1,0 +1,9 @@
+{
+  "id": "garrison",
+  "name": "Garrison",
+  "eraId": "classical",
+  "requiresTechId": "military-science",
+  "cost": 110,
+  "hero": false,
+  "safetyBonusPercent": 8
+}

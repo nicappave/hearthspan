@@ -1,0 +1,12 @@
+{
+  "id": "tax-pressure",
+  "name": "Tax Pressure",
+  "eraId": "bronze",
+  "requiresTechId": "writing",
+  "cost": 20,
+  "upkeepPerTurn": -3,
+  "channel": "Trade",
+  "amountNumerator": -15,
+  "amountDenominator": 100,
+  "radius": 3
+}

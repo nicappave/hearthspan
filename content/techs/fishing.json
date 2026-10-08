@@ -1,0 +1,7 @@
+{
+  "id": "fishing",
+  "name": "Fishing",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": ["hunting"]
+}

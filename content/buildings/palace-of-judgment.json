@@ -1,0 +1,9 @@
+{
+  "id": "palace-of-judgment",
+  "name": "The Palace of Judgment",
+  "eraId": "bronze",
+  "requiresTechId": "code-of-laws",
+  "cost": 130,
+  "hero": true,
+  "safetyBonusPercent": 10
+}

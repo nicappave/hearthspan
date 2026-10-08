@@ -1,0 +1,7 @@
+{
+  "id": "bronze",
+  "name": "Bronze Age",
+  "order": 1,
+  "nominalSpanStartYear": -3000,
+  "nominalSpanEndYear": -1200
+}

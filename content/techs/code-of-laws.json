@@ -1,0 +1,7 @@
+{
+  "id": "code-of-laws",
+  "name": "Code of Laws",
+  "eraId": "bronze",
+  "cost": 70,
+  "prereqIds": ["record-keeping", "calendar", "land-surveying"]
+}

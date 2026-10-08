@@ -1,0 +1,7 @@
+{
+  "id": "iron-working",
+  "name": "Iron Working",
+  "eraId": "classical",
+  "cost": 60,
+  "prereqIds": ["bronze-working"]
+}

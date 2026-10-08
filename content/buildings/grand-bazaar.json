@@ -1,0 +1,9 @@
+{
+  "id": "grand-bazaar",
+  "name": "The Grand Bazaar",
+  "eraId": "bronze",
+  "requiresTechId": "standardized-weights",
+  "cost": 95,
+  "hero": true,
+  "tradeBonusPercent": 14
+}

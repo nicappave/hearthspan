@@ -1,0 +1,7 @@
+{
+  "id": "stonecutting",
+  "name": "Stonecutting",
+  "eraId": "bronze",
+  "cost": 35,
+  "prereqIds": ["flint-knapping"]
+}

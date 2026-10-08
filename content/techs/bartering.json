@@ -1,0 +1,8 @@
+{
+  "id": "bartering",
+  "name": "Bartering",
+  "eraId": "neolithic",
+  "cost": 25,
+  "prereqIds": ["weaving", "cordage"],
+  "goldBonusPercent": 7
+}

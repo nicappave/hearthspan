@@ -1,0 +1,7 @@
+{
+  "id": "mathematics",
+  "name": "Mathematics",
+  "eraId": "bronze",
+  "cost": 45,
+  "prereqIds": ["wheel"]
+}

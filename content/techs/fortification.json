@@ -1,0 +1,7 @@
+{
+  "id": "fortification",
+  "name": "Fortification",
+  "eraId": "classical",
+  "cost": 70,
+  "prereqIds": ["masonry", "iron-working"]
+}

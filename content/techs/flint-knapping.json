@@ -1,0 +1,7 @@
+{
+  "id": "flint-knapping",
+  "name": "Flint Knapping",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": ["toolmaking"]
+}

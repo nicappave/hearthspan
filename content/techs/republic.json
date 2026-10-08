@@ -1,0 +1,8 @@
+{
+  "id": "republic",
+  "name": "Republic",
+  "eraId": "classical",
+  "cost": 95,
+  "prereqIds": ["civil-service", "philosophy"],
+  "productionBonusPercent": 7
+}

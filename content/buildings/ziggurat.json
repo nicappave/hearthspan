@@ -1,0 +1,9 @@
+{
+  "id": "ziggurat",
+  "name": "The Ziggurat",
+  "eraId": "bronze",
+  "requiresTechId": "calendar",
+  "cost": 90,
+  "hero": true,
+  "productionBonusPercent": 8
+}

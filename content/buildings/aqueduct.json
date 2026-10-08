@@ -1,0 +1,9 @@
+{
+  "id": "aqueduct",
+  "name": "Aqueduct",
+  "eraId": "classical",
+  "requiresTechId": "engineering",
+  "cost": 105,
+  "hero": false,
+  "foodBonusPercent": 6
+}

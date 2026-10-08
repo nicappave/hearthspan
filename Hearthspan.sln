@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sim", "sim", "{EDBD541F-F881-423F-A19F-6356D38EF51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthspan.Sim", "sim\Hearthspan.Sim\Hearthspan.Sim.csproj", "{73E28E23-B2AE-4801-B6E1-5D6AAB31995A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthspan.Content", "sim\Hearthspan.Content\Hearthspan.Content.csproj", "{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthspan.Sim.Harness", "sim\Hearthspan.Sim.Harness\Hearthspan.Sim.Harness.csproj", "{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthspan.ContentLint", "sim\Hearthspan.ContentLint\Hearthspan.ContentLint.csproj", "{29380F8E-FED0-460E-ABC9-239D55ECE9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthspan.Sim.Tests", "sim\Hearthspan.Sim.Tests\Hearthspan.Sim.Tests.csproj", "{66354584-CFE7-4BD4-BA76-2AABBA0BC16F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E28E23-B2AE-4801-B6E1-5D6AAB31995A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E28E23-B2AE-4801-B6E1-5D6AAB31995A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E28E23-B2AE-4801-B6E1-5D6AAB31995A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E28E23-B2AE-4801-B6E1-5D6AAB31995A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29380F8E-FED0-460E-ABC9-239D55ECE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29380F8E-FED0-460E-ABC9-239D55ECE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29380F8E-FED0-460E-ABC9-239D55ECE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29380F8E-FED0-460E-ABC9-239D55ECE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66354584-CFE7-4BD4-BA76-2AABBA0BC16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66354584-CFE7-4BD4-BA76-2AABBA0BC16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66354584-CFE7-4BD4-BA76-2AABBA0BC16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66354584-CFE7-4BD4-BA76-2AABBA0BC16F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73E28E23-B2AE-4801-B6E1-5D6AAB31995A} = {EDBD541F-F881-423F-A19F-6356D38EF51D}
+		{9EE35353-C48A-496C-BBDD-ABD70CFE8DDA} = {EDBD541F-F881-423F-A19F-6356D38EF51D}
+		{08EAED9C-0A4D-4EB6-B9AE-A6E6D138B3D6} = {EDBD541F-F881-423F-A19F-6356D38EF51D}
+		{29380F8E-FED0-460E-ABC9-239D55ECE9DD} = {EDBD541F-F881-423F-A19F-6356D38EF51D}
+		{66354584-CFE7-4BD4-BA76-2AABBA0BC16F} = {EDBD541F-F881-423F-A19F-6356D38EF51D}
+	EndGlobalSection
+EndGlobal

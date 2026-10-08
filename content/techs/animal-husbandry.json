@@ -1,0 +1,7 @@
+{
+  "id": "animal-husbandry",
+  "name": "Animal Husbandry",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "domestication",
+  "name": "Domestication",
+  "eraId": "bronze",
+  "cost": 30,
+  "prereqIds": ["herding"]
+}

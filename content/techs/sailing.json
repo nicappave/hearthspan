@@ -1,0 +1,7 @@
+{
+  "id": "sailing",
+  "name": "Sailing",
+  "eraId": "bronze",
+  "cost": 35,
+  "prereqIds": ["fishing"]
+}

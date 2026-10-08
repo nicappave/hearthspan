@@ -1,0 +1,7 @@
+{
+  "id": "settlement-planning",
+  "name": "Settlement Planning",
+  "eraId": "neolithic",
+  "cost": 25,
+  "prereqIds": ["shelter-building", "cordage"]
+}

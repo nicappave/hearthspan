@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/edict.schema.json",
+  "title": "EdictDef",
+  "description": "A regional edict — one of decision 1's five web verbs (docs/design-decisions.md). Enacted at a settlement, it stamps an additive modifier into one viability channel across a radius. Everything an edict does enters the sim through ModifierLayer; it never gets a bespoke rule of its own.",
+  "type": "object",
+  "required": ["id", "name", "eraId", "cost", "upkeepPerTurn", "channel", "amountNumerator", "amountDenominator", "radius"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "eraId": { "type": "string" },
+    "requiresTechId": { "type": ["string", "null"] },
+    "cost": {
+      "type": "integer",
+      "exclusiveMinimum": 0,
+      "description": "One-time gold cost to enact. Must be positive — a free edict is a strictly-dominant choice and the linter rejects it."
+    },
+    "upkeepPerTurn": {
+      "type": "integer",
+      "description": "Gold charged per turn while active. May be negative: that is how tax-pressure nets revenue."
+    },
+    "channel": {
+      "type": "string",
+      "enum": ["Food", "Water", "Safety", "Trade"],
+      "description": "Must name a known ViabilityChannel. Enforced by the linter as well as here, because content is loaded by the sim without a JSON-schema validator in the loop."
+    },
+    "amountNumerator": { "type": "integer" },
+    "amountDenominator": { "type": "integer", "exclusiveMinimum": 0 },
+    "radius": { "type": "integer", "minimum": 0 }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "shipyard",
+  "name": "Shipyard",
+  "eraId": "bronze",
+  "requiresTechId": "shipbuilding",
+  "cost": 40,
+  "hero": false,
+  "tradeBonusPercent": 5
+}

@@ -1,0 +1,9 @@
+{
+  "id": "council-ring",
+  "name": "The Council Ring",
+  "eraId": "neolithic",
+  "requiresTechId": "communal-organization",
+  "cost": 70,
+  "hero": true,
+  "productionBonusPercent": 14
+}

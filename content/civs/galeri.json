@@ -1,0 +1,30 @@
+{
+  "id": "galeri",
+  "name": "the Galeri",
+  "adjective": "Galeri",
+  "leader": "Sage Vitra",
+  "order": 7,
+  "colorIndex": 7,
+  "settlementNameStems": [
+    "Gal",
+    "Vel",
+    "Aur",
+    "Cas",
+    "Ter",
+    "Lav",
+    "Sabi",
+    "Tusc",
+    "Anc",
+    "Fal",
+    "Mon",
+    "Pra"
+  ],
+  "settlementNameEndings": [
+    "ium",
+    "ona",
+    "entum",
+    "ia",
+    "aca",
+    "ello"
+  ]
+}

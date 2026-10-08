@@ -1,0 +1,34 @@
+; Engine configuration file.
+; Pinned engine: Godot 4.5.2-stable (mono). See CLAUDE.md — never bump without a deliberate golden re-baseline.
+config_version=5
+
+[application]
+
+config/name="Hearthspan"
+config/features=PackedStringArray("4.5", "C#")
+run/main_scene="res://scenes/MainMenu.tscn"
+
+[dotnet]
+
+project/assembly_name="Hearthspan"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
+[gui]
+
+theme/custom="res://ui/theme.tres"
+
+[autoload]
+
+AppRunner="*res://src/AppRunner.cs"
+
+[input]
+
+toggle_overlay={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":86,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}

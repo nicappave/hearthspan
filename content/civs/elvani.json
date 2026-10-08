@@ -1,0 +1,30 @@
+{
+  "id": "elvani",
+  "name": "the Elvani",
+  "adjective": "Elvani",
+  "leader": "Matriarch Seya",
+  "order": 5,
+  "colorIndex": 5,
+  "settlementNameStems": [
+    "Ael",
+    "Syl",
+    "Ithil",
+    "Lor",
+    "Mira",
+    "Eld",
+    "Vael",
+    "Nim",
+    "Oril",
+    "Tae",
+    "Cel",
+    "Ery"
+  ],
+  "settlementNameEndings": [
+    "ienne",
+    "anor",
+    "iel",
+    "ara",
+    "ith",
+    "ene"
+  ]
+}

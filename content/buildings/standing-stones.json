@@ -1,0 +1,9 @@
+{
+  "id": "standing-stones",
+  "name": "The Standing Stones",
+  "eraId": "neolithic",
+  "requiresTechId": "burial-customs",
+  "cost": 55,
+  "hero": true,
+  "safetyBonusPercent": 6
+}

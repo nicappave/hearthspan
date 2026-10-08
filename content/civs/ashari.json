@@ -1,0 +1,32 @@
+{
+  "id": "ashari",
+  "name": "the Ashari",
+  "adjective": "Ashari",
+  "leader": "Queen Tamsa",
+  "order": 1,
+  "colorIndex": 1,
+  "settlementNameStems": [
+    "Ash",
+    "Zar",
+    "Ker",
+    "Mah",
+    "Sul",
+    "Tir",
+    "Qad",
+    "Rah",
+    "Emb",
+    "Zel",
+    "Nah",
+    "Dar"
+  ],
+  "settlementNameEndings": [
+    "ara",
+    "un",
+    "esh",
+    "im",
+    "abad",
+    "iya",
+    "ar",
+    "osh"
+  ]
+}

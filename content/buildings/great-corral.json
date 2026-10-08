@@ -1,0 +1,9 @@
+{
+  "id": "great-corral",
+  "name": "The Great Corral",
+  "eraId": "neolithic",
+  "requiresTechId": "herding",
+  "cost": 45,
+  "hero": true,
+  "foodBonusPercent": 12
+}

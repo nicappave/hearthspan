@@ -1,0 +1,9 @@
+{
+  "id": "royal-archive",
+  "name": "The Royal Archive",
+  "eraId": "bronze",
+  "requiresTechId": "record-keeping",
+  "cost": 110,
+  "hero": true,
+  "goldBonusPercent": 12
+}

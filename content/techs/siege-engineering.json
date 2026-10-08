@@ -1,0 +1,7 @@
+{
+  "id": "siege-engineering",
+  "name": "Siege Engineering",
+  "eraId": "classical",
+  "cost": 75,
+  "prereqIds": ["mathematics", "iron-working"]
+}

@@ -1,0 +1,98 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="PackedScene" path="res://art/terrain/grass.glb" id="1_grass"]
+[ext_resource type="PackedScene" path="res://art/terrain/grass-forest.glb" id="2_grass_forest"]
+[ext_resource type="PackedScene" path="res://art/terrain/grass-hill.glb" id="3_grass_hill"]
+[ext_resource type="PackedScene" path="res://art/terrain/sand.glb" id="4_sand"]
+[ext_resource type="PackedScene" path="res://art/terrain/water.glb" id="5_water"]
+[ext_resource type="PackedScene" path="res://art/buildings/building-house.glb" id="6_building_house"]
+[ext_resource type="PackedScene" path="res://art/buildings/building-market.glb" id="7_building_market"]
+[ext_resource type="PackedScene" path="res://art/buildings/building-mill.glb" id="8_building_mill"]
+[ext_resource type="PackedScene" path="res://art/buildings/building-village.glb" id="9_building_village"]
+[ext_resource type="PackedScene" path="res://art/props/tree_default.glb" id="10_tree_default"]
+[ext_resource type="PackedScene" path="res://art/props/tree_oak.glb" id="11_tree_oak"]
+[ext_resource type="PackedScene" path="res://art/props/tree_fat.glb" id="12_tree_fat"]
+[ext_resource type="PackedScene" path="res://art/props/tree_cone.glb" id="13_tree_cone"]
+
+[sub_resource type="ProceduralSkyMaterial" id="SkyMat_1"]
+sky_top_color = Color(0.30, 0.52, 0.82, 1)
+sky_horizon_color = Color(0.68, 0.78, 0.82, 1)
+sky_curve = 0.25
+ground_bottom_color = Color(0.62, 0.70, 0.74, 1)
+ground_horizon_color = Color(0.68, 0.78, 0.82, 1)
+sun_angle_max = 30.0
+sun_curve = 0.15
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("SkyMat_1")
+
+[sub_resource type="Environment" id="Env_1"]
+background_mode = 2
+sky = SubResource("Sky_1")
+ambient_light_source = 2
+ambient_light_sky_contribution = 1.0
+tonemap_mode = 2
+ssao_enabled = false
+glow_enabled = false
+
+[node name="Stage0Spike" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Env_1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.819152, -0.439385, 0.368688, 0.000000, 0.642788, 0.766044, -0.573576, -0.627507, 0.526541, 4.330127, 5.000000, 1.500000)
+light_color = Color(1.0, 0.96, 0.88, 1)
+light_energy = 1.15
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.993884, 0.064396, -0.089712, -0.000000, 0.812379, 0.583130, 0.110432, -0.579563, 0.807410, 3.730127, 4.300000, 6.900000)
+current = true
+fov = 55.0
+
+[node name="Terrain" type="Node3D" parent="."]
+
+[node name="tile_c0_r0" parent="Terrain" instance=ExtResource("5_water")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 0.000000, 0.000000, 0.000000)
+[node name="tile_c1_r0" parent="Terrain" instance=ExtResource("4_sand")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 1.732051, 0.000000, 0.000000)
+[node name="tile_c2_r0" parent="Terrain" instance=ExtResource("1_grass")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 3.464102, 0.000000, 0.000000)
+[node name="tile_c3_r0" parent="Terrain" instance=ExtResource("2_grass_forest")]
+transform = Transform3D(0.866025, 0.000000, 1.500000, 0.000000, 1.732051, 0.000000, -1.500000, 0.000000, 0.866025, 5.196152, 0.000000, 0.000000)
+[node name="tile_c4_r0" parent="Terrain" instance=ExtResource("3_grass_hill")]
+transform = Transform3D(0.866025, 0.000000, -1.500000, 0.000000, 1.732051, 0.000000, 1.500000, 0.000000, 0.866025, 6.928203, 0.000000, 0.000000)
+[node name="tile_c0_r1" parent="Terrain" instance=ExtResource("5_water")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 0.866025, 0.000000, 1.500000)
+[node name="tile_c1_r1" parent="Terrain" instance=ExtResource("4_sand")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 2.598076, 0.000000, 1.500000)
+[node name="tile_c2_r1" parent="Terrain" instance=ExtResource("1_grass")]
+transform = Transform3D(-1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, -1.732051, 4.330127, 0.000000, 1.500000)
+[node name="tile_c3_r1" parent="Terrain" instance=ExtResource("9_building_village")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 6.062178, 0.000000, 1.500000)
+[node name="tile_c4_r1" parent="Terrain" instance=ExtResource("6_building_house")]
+transform = Transform3D(0.866025, 0.000000, 1.500000, 0.000000, 1.732051, 0.000000, -1.500000, 0.000000, 0.866025, 7.794229, 0.000000, 1.500000)
+[node name="tile_c0_r2" parent="Terrain" instance=ExtResource("5_water")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 0.000000, 0.000000, 3.000000)
+[node name="tile_c1_r2" parent="Terrain" instance=ExtResource("4_sand")]
+transform = Transform3D(0.866025, 0.000000, 1.500000, 0.000000, 1.732051, 0.000000, -1.500000, 0.000000, 0.866025, 1.732051, 0.000000, 3.000000)
+[node name="tile_c2_r2" parent="Terrain" instance=ExtResource("1_grass")]
+transform = Transform3D(-0.866025, 0.000000, -1.500000, 0.000000, 1.732051, 0.000000, 1.500000, 0.000000, -0.866025, 3.464102, 0.000000, 3.000000)
+[node name="tile_c3_r2" parent="Terrain" instance=ExtResource("7_building_market")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 5.196152, 0.000000, 3.000000)
+[node name="tile_c4_r2" parent="Terrain" instance=ExtResource("8_building_mill")]
+transform = Transform3D(-1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, -1.732051, 6.928203, 0.000000, 3.000000)
+
+[node name="Props" type="Node3D" parent="."]
+
+[node name="tree_0" parent="Props" instance=ExtResource("11_tree_oak")]
+transform = Transform3D(1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, -0.000000, 0.000000, 1.732051, 5.476152, 0.000000, -0.150000)
+[node name="tree_1" parent="Props" instance=ExtResource("12_tree_fat")]
+transform = Transform3D(1.181256, 0.000000, 1.266742, 0.000000, 1.732051, 0.000000, -1.266742, 0.000000, 1.181256, 4.896152, 0.000000, 0.200000)
+[node name="tree_2" parent="Props" instance=ExtResource("13_tree_cone")]
+transform = Transform3D(-0.120822, 0.000000, 1.727832, 0.000000, 1.732051, 0.000000, -1.727832, 0.000000, -0.120822, 7.028203, 0.000000, 0.250000)
+[node name="tree_3" parent="Props" instance=ExtResource("10_tree_default")]
+transform = Transform3D(-1.346056, 0.000000, 1.090015, 0.000000, 1.732051, 0.000000, -1.090015, 0.000000, -1.346056, 3.314102, 0.000000, 2.800000)
+[node name="tree_4" parent="Props" instance=ExtResource("10_tree_default")]
+transform = Transform3D(-1.715195, 0.000000, -0.241055, 0.000000, 1.732051, 0.000000, 0.241055, 0.000000, -1.715195, 4.580127, 0.000000, 1.600000)

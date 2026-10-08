@@ -1,0 +1,9 @@
+{
+  "id": "workshop",
+  "name": "Workshop",
+  "eraId": "bronze",
+  "requiresTechId": "metalworking",
+  "cost": 35,
+  "hero": false,
+  "productionBonusPercent": 6
+}

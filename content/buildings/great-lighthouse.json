@@ -1,0 +1,10 @@
+{
+  "id": "great-lighthouse",
+  "name": "The Great Lighthouse",
+  "eraId": "classical",
+  "requiresTechId": "monumental-engineering",
+  "cost": 240,
+  "hero": true,
+  "wonder": true,
+  "tradeBonusPercent": 15
+}

@@ -1,0 +1,137 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://src/GameSession.cs" id="0_session"]
+[ext_resource type="Script" path="res://src/MapView.cs" id="1_map"]
+[ext_resource type="Script" path="res://src/CameraRig.cs" id="2_cam"]
+[ext_resource type="Script" path="res://src/SelectionController.cs" id="3_sel"]
+[ext_resource type="Script" path="res://src/TechTreeView.cs" id="4_tech"]
+[ext_resource type="Script" path="res://src/BuildView.cs" id="5_build"]
+[ext_resource type="Script" path="res://src/MapLabels.cs" id="7_labels"]
+[ext_resource type="Script" path="res://src/UnitView.cs" id="9_units"]
+[ext_resource type="Script" path="res://src/SaveLoadPanel.cs" id="10_saveload"]
+[ext_resource type="Script" path="res://src/EndgameScreen.cs" id="11_endgame"]
+[ext_resource type="Script" path="res://src/PauseMenu.cs" id="13_pause"]
+[ext_resource type="Script" path="res://src/DecisionPrompt.cs" id="14_decision"]
+
+[sub_resource type="ProceduralSkyMaterial" id="SkyMat_1"]
+sky_top_color = Color(0.42, 0.60, 0.82, 1)
+sky_horizon_color = Color(0.86, 0.84, 0.78, 1)
+sky_curve = 0.18
+ground_bottom_color = Color(0.66, 0.62, 0.54, 1)
+ground_horizon_color = Color(0.86, 0.84, 0.78, 1)
+sun_angle_max = 30.0
+sun_curve = 0.15
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("SkyMat_1")
+
+[sub_resource type="Environment" id="Env_1"]
+background_mode = 2
+sky = SubResource("Sky_1")
+ambient_light_source = 2
+ambient_light_color = Color(0.80, 0.78, 0.74, 1)
+ambient_light_sky_contribution = 0.45
+ambient_light_energy = 0.62
+tonemap_mode = 2
+tonemap_exposure = 1.02
+tonemap_white = 1.4
+ssao_enabled = true
+ssao_radius = 0.9
+ssao_intensity = 1.6
+ssao_power = 1.3
+ssao_detail = 0.6
+ssao_light_affect = 0.15
+glow_enabled = true
+glow_intensity = 0.35
+glow_strength = 0.9
+glow_bloom = 0.02
+glow_hdr_threshold = 1.1
+fog_enabled = true
+fog_light_color = Color(0.84, 0.82, 0.76, 1)
+fog_light_energy = 1.0
+fog_density = 0.0006
+fog_aerial_perspective = 0.35
+fog_sky_affect = 1.0
+adjustment_enabled = true
+adjustment_brightness = 1.0
+adjustment_contrast = 1.06
+adjustment_saturation = 1.04
+
+[node name="GameSession" type="Node"]
+script = ExtResource("0_session")
+
+[node name="World" type="Node3D" parent="."]
+script = ExtResource("1_map")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="World"]
+environment = SubResource("Env_1")
+
+[node name="Camera" type="Camera3D" parent="World"]
+script = ExtResource("2_cam")
+
+[node name="Selection" type="Node3D" parent="World"]
+script = ExtResource("3_sel")
+
+[node name="Units" type="Node3D" parent="World"]
+script = ExtResource("9_units")
+
+[node name="Sun" type="DirectionalLight3D" parent="World"]
+transform = Transform3D(0.866025, -0.321394, 0.383022, 0, 0.766044, 0.642788, -0.5, -0.556670, 0.663414, 60, 40, 40)
+light_color = Color(1.0, 0.94, 0.84, 1)
+light_energy = 1.2
+light_angular_distance = 1.5
+shadow_enabled = true
+shadow_blur = 1.2
+directional_shadow_max_distance = 320.0
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="MapLabels" type="Control" parent="UI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("7_labels")
+
+[node name="TechTree" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 40.0
+script = ExtResource("4_tech")
+
+[node name="BuildView" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 40.0
+script = ExtResource("5_build")
+
+[node name="DecisionPrompt" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("14_decision")
+
+[node name="SaveLoad" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("10_saveload")
+
+[node name="Endgame" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("11_endgame")
+
+[node name="PauseMenu" type="Control" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("13_pause")

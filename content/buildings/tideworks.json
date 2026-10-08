@@ -1,0 +1,9 @@
+{
+  "id": "tideworks",
+  "name": "The Tideworks",
+  "eraId": "neolithic",
+  "requiresTechId": "fishing",
+  "cost": 45,
+  "hero": true,
+  "foodBonusPercent": 12
+}

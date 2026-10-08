@@ -1,0 +1,7 @@
+{
+  "id": "irrigation-basics",
+  "name": "Irrigation Basics",
+  "eraId": "neolithic",
+  "cost": 25,
+  "prereqIds": ["agriculture"]
+}

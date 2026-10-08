@@ -1,0 +1,9 @@
+{
+  "id": "market",
+  "name": "Market",
+  "eraId": "bronze",
+  "requiresTechId": "trade",
+  "cost": 40,
+  "hero": false,
+  "tradeBonusPercent": 8
+}

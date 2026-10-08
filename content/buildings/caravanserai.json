@@ -1,0 +1,9 @@
+{
+  "id": "caravanserai",
+  "name": "The Caravanserai",
+  "eraId": "classical",
+  "requiresTechId": "long-distance-trade",
+  "cost": 190,
+  "hero": true,
+  "tradeBonusPercent": 14
+}

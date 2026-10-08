@@ -1,0 +1,7 @@
+{
+  "id": "writing",
+  "name": "Writing",
+  "eraId": "bronze",
+  "cost": 50,
+  "prereqIds": ["pottery"]
+}

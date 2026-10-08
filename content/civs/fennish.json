@@ -1,0 +1,31 @@
+{
+  "id": "fennish",
+  "name": "the Fennish",
+  "adjective": "Fennish",
+  "leader": "Lord Caddoc",
+  "order": 6,
+  "colorIndex": 6,
+  "settlementNameStems": [
+    "Kai",
+    "Lah",
+    "Tuo",
+    "Vesi",
+    "Hel",
+    "Joen",
+    "Rau",
+    "Sei",
+    "Kuu",
+    "Mets",
+    "Ol",
+    "Ruo"
+  ],
+  "settlementNameEndings": [
+    "nen",
+    "la",
+    "koski",
+    "niemi",
+    "jarvi",
+    "lahti",
+    "salo"
+  ]
+}

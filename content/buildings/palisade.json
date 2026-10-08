@@ -1,0 +1,8 @@
+{
+  "id": "palisade",
+  "name": "Palisade",
+  "eraId": "neolithic",
+  "cost": 25,
+  "hero": false,
+  "safetyBonusPercent": 8
+}

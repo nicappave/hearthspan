@@ -1,0 +1,7 @@
+{
+  "id": "pottery",
+  "name": "Pottery",
+  "eraId": "bronze",
+  "cost": 30,
+  "prereqIds": ["agriculture"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "great-bridge",
+  "name": "The Great Bridge",
+  "eraId": "bronze",
+  "requiresTechId": "load-bearing-construction",
+  "cost": 85,
+  "hero": true,
+  "productionBonusPercent": 10
+}

@@ -1,0 +1,9 @@
+{
+  "id": "palaestra",
+  "name": "The Palaestra",
+  "eraId": "classical",
+  "requiresTechId": "military-science",
+  "cost": 160,
+  "hero": true,
+  "safetyBonusPercent": 12
+}

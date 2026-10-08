@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/unit.schema.json",
+  "title": "UnitDef",
+  "description": "Full combat shape (Stage 4, docs/units-design.md).",
+  "type": "object",
+  "required": ["id", "name", "eraId", "cost", "move", "strength"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "eraId": { "type": "string", "description": "must reference an existing era id (ContentLint dangling-ref check)" },
+    "requiresTechId": { "type": ["string", "null"], "description": "must reference an existing tech id, whose era is <= this unit's era (ContentLint reachability check)" },
+    "cost": { "type": "integer", "minimum": 0 },
+    "move": { "type": "integer", "minimum": 1, "description": "movement points per turn" },
+    "strength": { "type": "integer", "minimum": 1 },
+    "garrisonBonusPercent": { "type": "integer", "description": "strength bonus %, additive to 100, while garrisoned" },
+    "raidBonusPercent": { "type": "integer", "description": "strength bonus % attacking an enemy settlement" },
+    "siegeBonusPercent": { "type": "integer", "description": "strength bonus % attacking a garrisoned settlement" },
+    "openFieldPenaltyPercent": { "type": "integer", "description": "strength bonus/penalty % fighting another unit in the open" },
+    "vision": { "type": "integer", "minimum": 1, "description": "hexes the unit sees around itself (default 2)" },
+    "role": { "enum": ["military", "scout"], "description": "scouts explore and can never attack (default military)" }
+  },
+  "additionalProperties": false
+}

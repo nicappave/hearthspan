@@ -1,0 +1,9 @@
+{
+  "id": "library",
+  "name": "Library",
+  "eraId": "classical",
+  "requiresTechId": "writing",
+  "cost": 50,
+  "hero": false,
+  "goldBonusPercent": 6
+}

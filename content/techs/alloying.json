@@ -1,0 +1,8 @@
+{
+  "id": "alloying",
+  "name": "Alloying",
+  "eraId": "bronze",
+  "cost": 60,
+  "prereqIds": ["mining", "metalworking"],
+  "productionBonusPercent": 8
+}

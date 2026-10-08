@@ -1,0 +1,74 @@
+{
+  "seed": 42,
+  "width": 128,
+  "height": 80,
+  "reBaseline": {
+    "wave": "plan-v5 M1 (the sim batch)",
+    "date": "2026-09-25",
+    "reason": "Deliberate behaviour change approved on 25 Sep 2026 and written up in docs/review/plan-v5/envelope-before-after.md: terrain is sim state (biome/relief/forest in the grid fingerprint; mountains unsettlable), emergence split into population-weighted hinterland seeding from Village-tier settlements plus 35 (was 50) wild candidates a turn, carrying capacity in GrowthEngine, growth break-even 0.8 and sensitivity 0.05 (was 1.0/0.02), production 1/8 per person (was 1/20). The civ-only changes (treasury, starting units, ruins, contact, peace, research queue, AI charters) never touch this civCount=0 world.",
+    "behaviourChanged": true,
+    "evidence": "settlementCount per checkpoint moved 0/3/18/37/83/152 -> 0/2/14/28/142/268 (docs/review/plan-v5/hash-m1.json). With civs (128x80, 4 civs, content) seed 42 ends turn 500 at 481 settlements, inside design decision 6's 400-600 band (ci.ps1 gate 5).",
+    "previousChain": [
+      {
+        "turn": 1,
+        "hash": "6e959863dd3c3ab8"
+      },
+      {
+        "turn": 10,
+        "hash": "1df9da649a2ce345"
+      },
+      {
+        "turn": 50,
+        "hash": "d44eb91aee270f1a"
+      },
+      {
+        "turn": 100,
+        "hash": "cf0a57ef31f3729f"
+      },
+      {
+        "turn": 250,
+        "hash": "ae315931532ff9dd"
+      },
+      {
+        "turn": 500,
+        "hash": "98f994810ce10999"
+      }
+    ],
+    "previousReBaseline": {
+      "wave": "plan-v3 FABLE STOP 4",
+      "date": "2026-09-04"
+    }
+  },
+  "checkpoints": [
+    {
+      "turn": 1,
+      "hash": "89b05f80c0eb2ca1",
+      "settlementCount": 0
+    },
+    {
+      "turn": 10,
+      "hash": "e5f1563c70015c1c",
+      "settlementCount": 2
+    },
+    {
+      "turn": 50,
+      "hash": "313d208a6e5492f4",
+      "settlementCount": 14
+    },
+    {
+      "turn": 100,
+      "hash": "9b107a6fd1380a11",
+      "settlementCount": 28
+    },
+    {
+      "turn": 250,
+      "hash": "72d93d3a58d70601",
+      "settlementCount": 142
+    },
+    {
+      "turn": 500,
+      "hash": "d9d26a23526649ab",
+      "settlementCount": 268
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "record-keeping",
+  "name": "Record-Keeping",
+  "eraId": "bronze",
+  "cost": 65,
+  "prereqIds": ["writing", "standardized-weights"]
+}

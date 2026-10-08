@@ -1,0 +1,9 @@
+{
+  "id": "amphitheater",
+  "name": "Amphitheater",
+  "eraId": "classical",
+  "requiresTechId": "philosophy",
+  "cost": 55,
+  "hero": false,
+  "safetyBonusPercent": 5
+}

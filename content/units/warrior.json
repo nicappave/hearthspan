@@ -1,0 +1,8 @@
+{
+  "id": "warrior",
+  "name": "Warrior",
+  "eraId": "neolithic",
+  "cost": 15,
+  "move": 2,
+  "strength": 4
+}

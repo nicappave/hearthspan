@@ -1,0 +1,9 @@
+{
+  "id": "grand-observatory",
+  "name": "The Grand Observatory",
+  "eraId": "classical",
+  "requiresTechId": "astronomy",
+  "cost": 130,
+  "hero": true,
+  "foodBonusPercent": 9
+}

@@ -1,0 +1,7 @@
+{
+  "id": "long-distance-trade",
+  "name": "Long-Distance Trade",
+  "eraId": "classical",
+  "cost": 100,
+  "prereqIds": ["trade", "navigation", "road-building"]
+}

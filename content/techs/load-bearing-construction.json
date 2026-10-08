@@ -1,0 +1,7 @@
+{
+  "id": "load-bearing-construction",
+  "name": "Load-Bearing Construction",
+  "eraId": "bronze",
+  "cost": 45,
+  "prereqIds": ["wheel", "stonecutting"]
+}

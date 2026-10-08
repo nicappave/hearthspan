@@ -1,0 +1,153 @@
+GameSession turn=120 settlements=71 civs=4
+player civIndex=0 researching=(none) completedTechs=0
+ownership owned=6 independent=18 legacy=29
+knowledge exploredTiles=169/2560
+verbs roads=42 roadTiles=108 edicts=14 commands=0
+units total=14 yours=2 wars=1
+events thisTurn=22
+buildView settlement=1 buildQueue=0 completedBuildings=0
+idleSettlements=6
+dirtySinceSave=True
+wonder completedByCivId=(none) youAreWinner=False
+endgame state=None
+panels: techTree.Visible=False buildView.Visible=False
+overlay=none eligibleTiles=54
+
+--- HUD ---
+TopBar pop=857 production=107.6 gold=2743 goldPerTurn=66.4 research="(none)" researchTurns=-1 queuedAfter=0 turn="Turn 120  ·  3000 BC  ·  Neolithic" overlay=False
+EndTurnPanel state=Research title="Choose research" sub="Your scholars have nothing to study" visible=True
+GoalChip kicker="GOAL 1 OF 12" title="Choose something to research" hint="Press Choose research (bottom right), or open the tech tree with T and click any technology." collapsed=False
+SelectionCard key=settlement:1 title="Branbury" subtitle="Village · your capital"
+  row "402 people · room for 555 · +0.8% a turn" progress=0.72
+  row "Next: Town at 500  (about 27 turns)"
+  row "0.89 | 0.50 | 0.50 | 0.31"
+  row "Building nothing · +50.3 production a turn banks here (250 of 252)" progress=0.99
+  row "Bank full: surplus sold as trade goods, +11.9 gold last turn"
+  row "+20.1 gold a turn to the treasury"
+  action "Build Camp Fire  (1 turn)" enabled=True
+  action "Build Granary  (1 turn)" enabled=True
+  action "Build Palisade  (1 turn)" enabled=True
+  action "Build list…" enabled=True
+  action "Found settlement (125g)" enabled=True
+  action "Promote (195g)" enabled=True
+  action "Road to…" enabled=True
+  action "Train Scout (12g)" enabled=True
+  action "Train Warrior (15g)" enabled=True
+  action "Leave idle this turn" enabled=True
+  hint "Nothing is being built here. Production banks until the bank is full, then sells for a quarter of its worth. Pick something above, or open the build list (B)."
+RivalsPanel rows=4 open=-1
+  civ=1 "the Hearthen" leader="Elder Maren" met=True player=True status=""
+  civ=2 "the Ashari" leader="Queen Tamsa" met=True player=False status="Peace"
+    action "Declare war" enabled=True reason=""
+  civ=3 "the Brennic" leader="Chief Oran" met=True player=False status="Peace"
+    action "Declare war" enabled=True reason=""
+  civ=4 "the Coralind" leader="Speaker Ilse" met=False player=False status=""
+EventFeed entries=1 turn=120
+  [t117] Quindale has joined your people.
+MomentPopup visible=False current=(none) queued=0 shownThisSession=0
+Minimap grid=64x40 knownTiles=169 visible=True
+Sfx Click=0.22/0.04s Select=0.21/0.12s Order=0.38/0.20s EndTurn=0.26/1.40s Bell=0.54/2.20s Fanfare=0.76/2.60s War=0.61/1.10s Peace=0.27/1.60s Error=0.12/0.16s
+selection unit=-1 settlement=1 tile=none hover=-1,-1 foundingMode=False reachableTiles=0 exploring=[] sleeping=[] hoverTip="" modeBanner=""
+
+--- MapLabels ---
+MapLabels cameraHeight=26.0 eligible=8 cap=120
+  Ruins: eligible=0 visibleBelowHeight=85
+  Camp: eligible=4 visibleBelowHeight=85
+  Hamlet: eligible=1 visibleBelowHeight=175
+  Village: eligible=3 visibleBelowHeight=260
+  Town: eligible=0 visibleBelowHeight=always
+  City: eligible=0 visibleBelowHeight=always
+  Metropolis: eligible=0 visibleBelowHeight=always
+--- TechTreeView ---
+TechTreeView nodeCount=69 eraCount=3
+pan=(-56, -96) zoom=1.000
+lastVisibleCount=0 lastDrawnEdgeCount=0
+lastFitZoom=1.000 columns=10 maxRowsInColumn=15
+statusCounts: Locked=64 Available=5
+tooltipSamples:
+  Locked (herding): "Herding (Neolithic) / Cost 20. Prerequisites: Animal Husbandry. / +4 Legacy. / Unlocks: The Great Corral building, Domestication tech. / Locked — click to queue it: every technology on the way is researched first."
+  Available (animal-husbandry): "Animal Husbandry (Neolithic) / Cost 15. Prerequisites: none. / +4 Legacy. / Unlocks: Anatomy tech, Herding tech. / Available now — click to research it next."
+--- BuildView ---
+BuildView settlement=1 pop=402 tier=Village
+available count=45 unlocked=3 locked=42 showLocked=False
+  Camp Fire cost=5 turns=1 effect="+4% safety" hero=False
+  Granary cost=15 turns=1 effect="+8% food growth" hero=False
+  Palisade cost=25 turns=1 effect="+8% safety" hero=False
+  The Great Agora needs=needs Philosophy
+  Amphitheater needs=needs Philosophy
+  Aqueduct needs=needs Engineering
+  The Asclepeion needs=needs Medicine
+  The Caravanserai needs=needs Long-Distance Trade
+  Carpenters' Yard needs=needs Woodworking
+  The Council Ring needs=needs Communal Organization
+  Countinghouse needs=needs Record-Keeping
+  The Curia needs=needs Republic
+  Forge needs=needs Bronze Working
+  Garrison needs=needs Military Science
+  The Grain Vaults needs=needs Food Preservation
+  The Grand Bazaar needs=needs Standardized Weights
+  The Grand Observatory needs=needs Astronomy
+  The Grand Treasury needs=needs Banking
+  The Great Bridge needs=needs Load-Bearing Construction
+  The Great Canal needs=needs Hydraulic Engineering
+  The Great Corral needs=needs Herding
+  The Great Forum needs=needs Law Code
+  The Great Foundry needs=needs Alloying
+  The Great Harbor needs=needs Shipbuilding
+  The Great Hearth needs=needs Fire
+  The Great Lighthouse needs=needs Monumental Engineering
+  Library needs=needs Writing
+  Market needs=needs Trade
+  Mine Works needs=needs Mining
+  Mint needs=needs Coinage
+  The Navalia needs=needs Naval Warfare
+  The Palace of Judgment needs=needs Code of Laws
+  The Palaestra needs=needs Military Science
+  The Royal Archive needs=needs Record-Keeping
+  Shipyard needs=needs Shipbuilding
+  Smokehouse needs=needs Food Preservation
+  The Spirit Lodge needs=needs Ritual
+  The Standing Stones needs=needs Burial Customs
+  Stoneworks needs=needs Architecture
+  The Longhouse needs=needs Settlement Planning
+  The Tideworks needs=needs Fishing
+  The Waystation needs=needs Caravans
+  The Weavers' Hall needs=needs Bartering
+  Workshop needs=needs Metalworking
+  The Ziggurat needs=needs Calendar
+buildQueue count=0
+completed count=0
+ownedSettlements count=6 selected=1
+  id=1 Branbury (Village, 402)  ⚑
+  id=5 Fenbury (Village, 213)  ⚑
+  id=16 Ravbury (Village, 138)  ⚑
+  id=20 Varbury (Hamlet, 82)  ⚑
+  id=51 Dundale (Camp, 15)  ⚑
+  id=63 Quindale (Camp, 7)  ⚑
+switcherControls count=6
+  "Branbury (Village, 402)  ⚑" tooltip="This is the settlement currently shown."
+  "Fenbury (Village, 213)  ⚑" tooltip="Switch the build view to Fenbury (Village, 213)  ⚑."
+  "Ravbury (Village, 138)  ⚑" tooltip="Switch the build view to Ravbury (Village, 138)  ⚑."
+  "Varbury (Hamlet, 82)  ⚑" tooltip="Switch the build view to Varbury (Hamlet, 82)  ⚑."
+  "Dundale (Camp, 15)  ⚑" tooltip="Switch the build view to Dundale (Camp, 15)  ⚑."
+  "Quindale (Camp, 7)  ⚑" tooltip="Switch the build view to Quindale (Camp, 7)  ⚑."
+--- SaveLoadPanel ---
+SaveLoadPanel visible=False mode=Save slots=0 status=""
+--- PauseMenu ---
+PauseMenu visible=False settingsVisible=False quitConfirmVisible=False
+--- EndgameScreen ---
+EndgameScreen visible=False state=None header="" legacyLine="" summaryLines=0 dismissed=False
+--- DecisionPrompt ---
+DecisionPrompt pending=0
+--- MapView buildings ---
+MapView buildingPlacements settlements=8
+  settlement 1: houses:18
+  settlement 5: houses:13
+  settlement 16: houses:11
+  settlement 20: houses:9
+  settlement 51: houses:4
+  settlement 54: houses:4
+  settlement 63: houses:3
+  settlement 71: houses:3
+--- UnitView ---
+UnitView liveNodes=2 ids=[1,2] selected=-1

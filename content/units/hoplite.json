@@ -1,0 +1,9 @@
+{
+  "id": "hoplite",
+  "name": "Hoplite",
+  "eraId": "classical",
+  "requiresTechId": "iron-working",
+  "cost": 55,
+  "move": 2,
+  "strength": 10
+}

@@ -1,0 +1,9 @@
+{
+  "id": "smokehouse",
+  "name": "Smokehouse",
+  "eraId": "neolithic",
+  "requiresTechId": "food-preservation",
+  "cost": 20,
+  "hero": false,
+  "foodBonusPercent": 6
+}

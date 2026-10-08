@@ -1,0 +1,7 @@
+{
+  "id": "cordage",
+  "name": "Cordage",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": ["gathering", "toolmaking"]
+}

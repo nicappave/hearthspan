@@ -1,0 +1,7 @@
+{
+  "id": "law-code",
+  "name": "Law Code",
+  "eraId": "classical",
+  "cost": 80,
+  "prereqIds": ["rhetoric", "currency"]
+}

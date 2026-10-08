@@ -1,0 +1,8 @@
+{
+  "id": "food-preservation",
+  "name": "Food Preservation",
+  "eraId": "neolithic",
+  "cost": 20,
+  "prereqIds": ["fire", "hunting"],
+  "foodBonusPercent": 8
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/building.schema.json",
+  "title": "BuildingDef",
+  "type": "object",
+  "required": ["id", "name", "eraId", "cost", "hero"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "eraId": { "type": "string" },
+    "requiresTechId": { "type": ["string", "null"] },
+    "cost": { "type": "integer", "minimum": 0 },
+    "hero": {
+      "type": "boolean",
+      "description": "docs/design-decisions.md decision A — individually-modeled hero buildings, 8-12 per era at full content scale (Phase 5); this Phase 1 skeleton only carries the flag."
+    },
+    "wonder": {
+      "type": "boolean",
+      "description": "docs/content-design.md §4 — The Great Lighthouse ending. At most one building across all content may set this true (ContentLinter.CheckWonderUniqueness). Global completion is exclusive; a losing civ's investment is refunded (ConstructionEngine.ProcessTurn)."
+    },
+    "foodBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — additive Food viability bonus at the settlement's own tile on completion, via ModifierLayer (Garrison's pattern). Structural sanity bound only, not a balance judgment."
+    },
+    "productionBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — settlement-scoped percent multiplier on the settlement's own Production ledger output (EconomyEngine.ProcessTurn), not via ModifierLayer (no Production viability channel exists). Structural sanity bound only, not a balance judgment."
+    },
+    "tradeBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — additive Trade viability bonus at the settlement's own tile on completion, via ModifierLayer. Structural sanity bound only, not a balance judgment."
+    },
+    "safetyBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — additive Safety viability bonus at the settlement's own tile on completion, via ModifierLayer. Structural sanity bound only, not a balance judgment."
+    },
+    "goldBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "Plan v3 task 4.5 — settlement-scoped percent multiplier on the settlement's own Gold ledger output (EconomyEngine.ProcessTurn), not via ModifierLayer (no Gold viability channel exists), same pattern as productionBonusPercent. Structural sanity bound only, not a balance judgment."
+    }
+  },
+  "additionalProperties": false
+}

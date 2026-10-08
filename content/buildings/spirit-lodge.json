@@ -1,0 +1,9 @@
+{
+  "id": "spirit-lodge",
+  "name": "The Spirit Lodge",
+  "eraId": "neolithic",
+  "requiresTechId": "ritual",
+  "cost": 50,
+  "hero": true,
+  "productionBonusPercent": 10
+}

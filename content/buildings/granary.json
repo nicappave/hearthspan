@@ -1,0 +1,8 @@
+{
+  "id": "granary",
+  "name": "Granary",
+  "eraId": "neolithic",
+  "cost": 15,
+  "hero": false,
+  "foodBonusPercent": 8
+}

@@ -1,0 +1,7 @@
+{
+  "id": "monumental-engineering",
+  "name": "Monumental Engineering",
+  "eraId": "classical",
+  "cost": 115,
+  "prereqIds": ["siege-engineering", "masonry", "philosophy"]
+}

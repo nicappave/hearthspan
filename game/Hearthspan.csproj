@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/4.5.2">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>Hearthspan.Game</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- One-way reference: game/ consumes Hearthspan.Sim's WorldView contract. sim/ never references
+         Godot in the other direction — enforced by ci.ps1's grep gate. -->
+    <ProjectReference Include="..\sim\Hearthspan.Sim\Hearthspan.Sim.csproj" />
+  </ItemGroup>
+</Project>

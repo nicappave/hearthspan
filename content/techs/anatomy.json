@@ -1,0 +1,7 @@
+{
+  "id": "anatomy",
+  "name": "Anatomy",
+  "eraId": "classical",
+  "cost": 80,
+  "prereqIds": ["philosophy", "animal-husbandry"]
+}

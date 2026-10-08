@@ -1,0 +1,7 @@
+{
+  "id": "naval-warfare",
+  "name": "Naval Warfare",
+  "eraId": "classical",
+  "cost": 80,
+  "prereqIds": ["sailing", "iron-working"]
+}

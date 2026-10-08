@@ -1,0 +1,12 @@
+{
+  "id": "land-grants",
+  "name": "Land Grants",
+  "eraId": "neolithic",
+  "requiresTechId": "settlement-planning",
+  "cost": 20,
+  "upkeepPerTurn": 1,
+  "channel": "Safety",
+  "amountNumerator": 20,
+  "amountDenominator": 100,
+  "radius": 3
+}

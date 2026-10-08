@@ -1,0 +1,7 @@
+{
+  "id": "shelter-building",
+  "name": "Shelter Building",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": ["toolmaking"]
+}

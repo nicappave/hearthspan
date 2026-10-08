@@ -1,0 +1,8 @@
+{
+  "id": "architecture",
+  "name": "Architecture",
+  "eraId": "classical",
+  "cost": 70,
+  "prereqIds": ["masonry", "geometry"],
+  "productionBonusPercent": 6
+}

@@ -1,0 +1,9 @@
+{
+  "id": "grand-treasury",
+  "name": "The Grand Treasury",
+  "eraId": "classical",
+  "requiresTechId": "banking",
+  "cost": 170,
+  "hero": true,
+  "tradeBonusPercent": 12
+}

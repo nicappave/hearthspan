@@ -1,0 +1,9 @@
+{
+  "id": "great-foundry",
+  "name": "The Great Foundry",
+  "eraId": "bronze",
+  "requiresTechId": "alloying",
+  "cost": 100,
+  "hero": true,
+  "productionBonusPercent": 15
+}

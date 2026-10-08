@@ -1,0 +1,8 @@
+{
+  "id": "geometry",
+  "name": "Geometry",
+  "eraId": "classical",
+  "cost": 65,
+  "prereqIds": ["mathematics"],
+  "productionBonusPercent": 5
+}

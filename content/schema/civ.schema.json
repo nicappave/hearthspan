@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/civ.schema.json",
+  "title": "CivDef",
+  "description": "Plan v5 D6: a civilisation's identity. The sim never reads it; the view dresses civ index `order` with it.",
+  "type": "object",
+  "required": ["id", "name", "adjective", "leader", "order", "colorIndex", "settlementNameStems", "settlementNameEndings"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string", "description": "with the article, as it reads in a sentence: 'the Ashari'" },
+    "adjective": { "type": "string" },
+    "leader": { "type": "string" },
+    "order": { "type": "integer", "minimum": 0, "description": "the civ index this definition dresses; unique" },
+    "colorIndex": { "type": "integer", "minimum": 0 },
+    "settlementNameStems": { "type": "array", "items": { "type": "string" }, "minItems": 8 },
+    "settlementNameEndings": { "type": "array", "items": { "type": "string" }, "minItems": 4 }
+  },
+  "additionalProperties": false
+}

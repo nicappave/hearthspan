@@ -1,0 +1,8 @@
+{
+  "id": "civil-service",
+  "name": "Civil Service",
+  "eraId": "classical",
+  "cost": 85,
+  "prereqIds": ["law-code", "writing"],
+  "goldBonusPercent": 7
+}

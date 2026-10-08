@@ -1,0 +1,9 @@
+{
+  "id": "the-longhouse",
+  "name": "The Longhouse",
+  "eraId": "neolithic",
+  "requiresTechId": "settlement-planning",
+  "cost": 55,
+  "hero": true,
+  "safetyBonusPercent": 12
+}

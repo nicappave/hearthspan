@@ -1,0 +1,8 @@
+{
+  "id": "woodworking",
+  "name": "Woodworking",
+  "eraId": "neolithic",
+  "cost": 20,
+  "prereqIds": ["toolmaking", "flint-knapping"],
+  "productionBonusPercent": 6
+}

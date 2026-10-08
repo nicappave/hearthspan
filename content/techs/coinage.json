@@ -1,0 +1,8 @@
+{
+  "id": "coinage",
+  "name": "Coinage",
+  "eraId": "classical",
+  "cost": 70,
+  "prereqIds": ["currency", "metalworking"],
+  "goldBonusPercent": 6
+}

@@ -1,0 +1,8 @@
+{
+  "id": "communal-organization",
+  "name": "Communal Organization",
+  "eraId": "neolithic",
+  "cost": 30,
+  "prereqIds": ["settlement-planning", "ritual"],
+  "productionBonusPercent": 8
+}

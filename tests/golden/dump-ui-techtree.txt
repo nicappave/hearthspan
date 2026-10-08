@@ -1,0 +1,3 @@
+TechTreeView nodeCount=2000 eraCount=10
+pan=(-2, 9.995833) zoom=0.759
+lastVisibleCount=136 lastDrawnEdgeCount=136

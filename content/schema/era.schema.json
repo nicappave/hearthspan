@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/era.schema.json",
+  "title": "EraDef",
+  "description": "docs/design-decisions.md decision 7 — nominalSpan is presentation flavour only; no sim rule reads it.",
+  "type": "object",
+  "required": ["id", "name", "order", "nominalSpanStartYear", "nominalSpanEndYear"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "order": { "type": "integer", "minimum": 0, "description": "0-based, ascending, non-overlapping across eras" },
+    "nominalSpanStartYear": { "type": "integer" },
+    "nominalSpanEndYear": { "type": "integer" }
+  },
+  "additionalProperties": false
+}

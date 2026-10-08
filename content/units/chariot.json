@@ -1,0 +1,10 @@
+{
+  "id": "chariot",
+  "name": "Chariot",
+  "eraId": "bronze",
+  "requiresTechId": "horseback-riding",
+  "cost": 45,
+  "move": 3,
+  "strength": 5,
+  "raidBonusPercent": 50
+}

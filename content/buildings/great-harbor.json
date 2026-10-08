@@ -1,0 +1,9 @@
+{
+  "id": "great-harbor",
+  "name": "The Great Harbor",
+  "eraId": "bronze",
+  "requiresTechId": "shipbuilding",
+  "cost": 90,
+  "hero": true,
+  "tradeBonusPercent": 12
+}

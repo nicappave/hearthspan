@@ -1,0 +1,11 @@
+{
+  "id": "onager",
+  "name": "Onager",
+  "eraId": "classical",
+  "requiresTechId": "siege-engineering",
+  "cost": 75,
+  "move": 1,
+  "strength": 6,
+  "siegeBonusPercent": 100,
+  "openFieldPenaltyPercent": -50
+}

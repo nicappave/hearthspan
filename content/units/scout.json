@@ -1,0 +1,10 @@
+{
+  "id": "scout",
+  "name": "Scout",
+  "eraId": "neolithic",
+  "cost": 12,
+  "move": 3,
+  "strength": 1,
+  "vision": 3,
+  "role": "scout"
+}

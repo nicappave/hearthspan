@@ -1,0 +1,7 @@
+{
+  "id": "classical",
+  "name": "Classical",
+  "order": 2,
+  "nominalSpanStartYear": -1200,
+  "nominalSpanEndYear": 500
+}

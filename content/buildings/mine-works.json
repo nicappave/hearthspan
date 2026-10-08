@@ -1,0 +1,9 @@
+{
+  "id": "mine-works",
+  "name": "Mine Works",
+  "eraId": "bronze",
+  "requiresTechId": "mining",
+  "cost": 45,
+  "hero": false,
+  "productionBonusPercent": 5
+}

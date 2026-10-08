@@ -1,0 +1,7 @@
+{
+  "id": "irrigation",
+  "name": "Irrigation",
+  "eraId": "bronze",
+  "cost": 40,
+  "prereqIds": ["irrigation-basics", "pottery"]
+}

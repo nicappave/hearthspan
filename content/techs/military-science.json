@@ -1,0 +1,7 @@
+{
+  "id": "military-science",
+  "name": "Military Science",
+  "eraId": "classical",
+  "cost": 85,
+  "prereqIds": ["siege-engineering", "fortification"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "agriculture",
+  "name": "Agriculture",
+  "eraId": "neolithic",
+  "cost": 20,
+  "prereqIds": ["toolmaking"]
+}

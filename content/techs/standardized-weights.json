@@ -1,0 +1,7 @@
+{
+  "id": "standardized-weights",
+  "name": "Standardized Weights",
+  "eraId": "bronze",
+  "cost": 60,
+  "prereqIds": ["mathematics", "trade"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "horseback-riding",
+  "name": "Horseback Riding",
+  "eraId": "bronze",
+  "cost": 40,
+  "prereqIds": ["domestication"]
+}

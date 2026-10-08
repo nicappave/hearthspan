@@ -1,0 +1,9 @@
+{
+  "id": "agora",
+  "name": "The Great Agora",
+  "eraId": "classical",
+  "requiresTechId": "philosophy",
+  "cost": 80,
+  "hero": true,
+  "tradeBonusPercent": 10
+}

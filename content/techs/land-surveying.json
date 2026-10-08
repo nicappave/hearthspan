@@ -1,0 +1,8 @@
+{
+  "id": "land-surveying",
+  "name": "Land Surveying",
+  "eraId": "bronze",
+  "cost": 55,
+  "prereqIds": ["irrigation", "mathematics"],
+  "foodBonusPercent": 5
+}

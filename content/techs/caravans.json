@@ -1,0 +1,8 @@
+{
+  "id": "caravans",
+  "name": "Caravans",
+  "eraId": "bronze",
+  "cost": 40,
+  "prereqIds": ["wheel", "domestication"],
+  "goldBonusPercent": 5
+}

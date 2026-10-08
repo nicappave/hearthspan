@@ -1,0 +1,9 @@
+{
+  "id": "stoneworks",
+  "name": "Stoneworks",
+  "eraId": "classical",
+  "requiresTechId": "architecture",
+  "cost": 95,
+  "hero": false,
+  "productionBonusPercent": 6
+}

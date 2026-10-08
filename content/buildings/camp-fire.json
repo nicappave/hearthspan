@@ -1,0 +1,8 @@
+{
+  "id": "camp-fire",
+  "name": "Camp Fire",
+  "eraId": "neolithic",
+  "cost": 5,
+  "hero": false,
+  "safetyBonusPercent": 4
+}

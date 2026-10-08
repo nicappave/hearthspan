@@ -1,0 +1,7 @@
+{
+  "id": "neolithic",
+  "name": "Neolithic",
+  "order": 0,
+  "nominalSpanStartYear": -8000,
+  "nominalSpanEndYear": -3000
+}

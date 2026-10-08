@@ -1,0 +1,8 @@
+{
+  "id": "banking",
+  "name": "Banking",
+  "eraId": "classical",
+  "cost": 90,
+  "prereqIds": ["coinage", "law-code"],
+  "goldBonusPercent": 9
+}

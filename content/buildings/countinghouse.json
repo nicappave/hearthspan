@@ -1,0 +1,9 @@
+{
+  "id": "countinghouse",
+  "name": "Countinghouse",
+  "eraId": "bronze",
+  "requiresTechId": "record-keeping",
+  "cost": 55,
+  "hero": false,
+  "goldBonusPercent": 6
+}

@@ -1,0 +1,9 @@
+{
+  "id": "asclepeion",
+  "name": "The Asclepeion",
+  "eraId": "classical",
+  "requiresTechId": "medicine",
+  "cost": 165,
+  "hero": true,
+  "productionBonusPercent": 10
+}

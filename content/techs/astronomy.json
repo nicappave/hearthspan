@@ -1,0 +1,8 @@
+{
+  "id": "astronomy",
+  "name": "Astronomy",
+  "eraId": "classical",
+  "cost": 80,
+  "prereqIds": ["geometry", "calendar"],
+  "foodBonusPercent": 5
+}

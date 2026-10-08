@@ -1,0 +1,12 @@
+{
+  "id": "encourage-agriculture",
+  "name": "Encourage Agriculture",
+  "eraId": "neolithic",
+  "requiresTechId": "agriculture",
+  "cost": 15,
+  "upkeepPerTurn": 1,
+  "channel": "Food",
+  "amountNumerator": 25,
+  "amountDenominator": 100,
+  "radius": 3
+}

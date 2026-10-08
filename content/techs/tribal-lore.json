@@ -1,0 +1,7 @@
+{
+  "id": "tribal-lore",
+  "name": "Tribal Lore",
+  "eraId": "neolithic",
+  "cost": 20,
+  "prereqIds": ["fire"]
+}

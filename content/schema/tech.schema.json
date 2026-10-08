@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hearthspan/schema/tech.schema.json",
+  "title": "TechDef",
+  "type": "object",
+  "required": ["id", "name", "eraId", "cost", "prereqIds"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "eraId": { "type": "string", "description": "must reference an existing era id (ContentLint dangling-ref check)" },
+    "cost": { "type": "integer", "minimum": 0, "description": "must be >= max(prereq costs) (ContentLint cost-monotonicity check)" },
+    "prereqIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "must reference existing tech ids, form a DAG (no cycles), and each prereq's era must be <= this tech's era (ContentLint reachability check)"
+    },
+    "foodBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — civ-wide percent multiplier on Food production, summed over a civ's completed techs by World.Advance() and applied by EconomyEngine.ProcessTurn. Structural sanity bound only, not a balance judgment."
+    },
+    "productionBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — civ-wide percent multiplier on Production. Structural sanity bound only, not a balance judgment."
+    },
+    "goldBonusPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "docs/content-design.md §0 — civ-wide percent multiplier on Gold. Structural sanity bound only, not a balance judgment."
+    }
+  },
+  "additionalProperties": false
+}

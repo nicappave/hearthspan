@@ -1,0 +1,8 @@
+{
+  "id": "shipbuilding",
+  "name": "Shipbuilding",
+  "eraId": "bronze",
+  "cost": 50,
+  "prereqIds": ["sailing", "bronze-working"],
+  "goldBonusPercent": 5
+}

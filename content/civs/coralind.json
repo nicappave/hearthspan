@@ -1,0 +1,31 @@
+{
+  "id": "coralind",
+  "name": "the Coralind",
+  "adjective": "Coralind",
+  "leader": "Speaker Ilse",
+  "order": 3,
+  "colorIndex": 3,
+  "settlementNameStems": [
+    "Cor",
+    "Mar",
+    "Sel",
+    "Aqu",
+    "Por",
+    "Ves",
+    "Lun",
+    "Ost",
+    "Del",
+    "Nav",
+    "Pel",
+    "Tiri"
+  ],
+  "settlementNameEndings": [
+    "ino",
+    "essa",
+    "ara",
+    "ia",
+    "one",
+    "eo",
+    "ello"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "curia",
+  "name": "The Curia",
+  "eraId": "classical",
+  "requiresTechId": "republic",
+  "cost": 150,
+  "hero": true,
+  "productionBonusPercent": 10
+}

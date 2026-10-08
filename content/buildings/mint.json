@@ -1,0 +1,9 @@
+{
+  "id": "mint",
+  "name": "Mint",
+  "eraId": "classical",
+  "requiresTechId": "coinage",
+  "cost": 100,
+  "hero": false,
+  "tradeBonusPercent": 7
+}

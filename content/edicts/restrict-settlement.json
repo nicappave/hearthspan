@@ -1,0 +1,12 @@
+{
+  "id": "restrict-settlement",
+  "name": "Restrict Settlement",
+  "eraId": "bronze",
+  "requiresTechId": "stonecutting",
+  "cost": 25,
+  "upkeepPerTurn": 2,
+  "channel": "Safety",
+  "amountNumerator": -40,
+  "amountDenominator": 100,
+  "radius": 4
+}

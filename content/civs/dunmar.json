@@ -1,0 +1,31 @@
+{
+  "id": "dunmar",
+  "name": "the Dunmar",
+  "adjective": "Dunmar",
+  "leader": "Warlord Hagen",
+  "order": 4,
+  "colorIndex": 4,
+  "settlementNameStems": [
+    "Hag",
+    "Stor",
+    "Vik",
+    "Grim",
+    "Skal",
+    "Thor",
+    "Ulf",
+    "Bjar",
+    "Kol",
+    "Frey",
+    "Hal",
+    "Ask"
+  ],
+  "settlementNameEndings": [
+    "heim",
+    "vik",
+    "stad",
+    "fjord",
+    "holm",
+    "by",
+    "gard"
+  ]
+}

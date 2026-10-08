@@ -1,0 +1,9 @@
+{
+  "id": "forge",
+  "name": "Forge",
+  "eraId": "bronze",
+  "requiresTechId": "bronze-working",
+  "cost": 30,
+  "hero": false,
+  "productionBonusPercent": 8
+}

@@ -1,0 +1,9 @@
+{
+  "id": "great-forum",
+  "name": "The Great Forum",
+  "eraId": "classical",
+  "requiresTechId": "law-code",
+  "cost": 120,
+  "hero": true,
+  "goldBonusPercent": 10
+}

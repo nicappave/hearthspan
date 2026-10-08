@@ -1,0 +1,10 @@
+{
+  "id": "great-hearth",
+  "name": "The Great Hearth",
+  "eraId": "neolithic",
+  "requiresTechId": "fire",
+  "cost": 40,
+  "hero": true,
+  "foodBonusPercent": 8,
+  "safetyBonusPercent": 5
+}

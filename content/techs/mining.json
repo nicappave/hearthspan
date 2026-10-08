@@ -1,0 +1,8 @@
+{
+  "id": "mining",
+  "name": "Mining",
+  "eraId": "bronze",
+  "cost": 35,
+  "prereqIds": ["stonecutting"],
+  "productionBonusPercent": 5
+}

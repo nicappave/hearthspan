@@ -1,0 +1,7 @@
+{
+  "id": "currency",
+  "name": "Currency",
+  "eraId": "classical",
+  "cost": 60,
+  "prereqIds": ["writing"]
+}

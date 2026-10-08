@@ -1,0 +1,8 @@
+{
+  "id": "hydraulic-engineering",
+  "name": "Hydraulic Engineering",
+  "eraId": "bronze",
+  "cost": 65,
+  "prereqIds": ["irrigation", "load-bearing-construction"],
+  "foodBonusPercent": 8
+}

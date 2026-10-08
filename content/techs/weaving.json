@@ -1,0 +1,7 @@
+{
+  "id": "weaving",
+  "name": "Weaving",
+  "eraId": "neolithic",
+  "cost": 20,
+  "prereqIds": ["gathering"]
+}

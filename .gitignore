@@ -1,0 +1,19 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+
+# Godot 4 engine-managed cache (import cache, C# build temp, editor state).
+# Never ignore *.uid or *.import — those are committed (see CLAUDE.md trap list).
+.godot/
+
+# Editor/IDE
+.vs/
+.idea/
+
+# Exported build output (Stage 6 task 5) — a local build artifact, never source-controlled.
+dist/
+
+# Raw Kenney pack downloads and full extractions (Plan v3 task 0.4) — only the pieces we use are
+# committed, under game/art/<category>/, per art/CONVENTIONS.md.
+art/_packs/

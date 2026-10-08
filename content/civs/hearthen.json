@@ -1,0 +1,38 @@
+{
+  "id": "hearthen",
+  "name": "the Hearthen",
+  "adjective": "Hearthen",
+  "leader": "Elder Maren",
+  "order": 0,
+  "colorIndex": 0,
+  "settlementNameStems": [
+    "Bran",
+    "Wen",
+    "Hal",
+    "Nor",
+    "Kel",
+    "Ash",
+    "Oak",
+    "Thorn",
+    "Mil",
+    "Stan",
+    "Brook",
+    "Elm",
+    "Hart",
+    "Red",
+    "Wil",
+    "Cold"
+  ],
+  "settlementNameEndings": [
+    "bury",
+    "ford",
+    "gate",
+    "wick",
+    "ham",
+    "stead",
+    "ton",
+    "ley",
+    "dale",
+    "well"
+  ]
+}

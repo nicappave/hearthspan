@@ -1,0 +1,9 @@
+{
+  "id": "weavers-hall",
+  "name": "The Weavers' Hall",
+  "eraId": "neolithic",
+  "requiresTechId": "bartering",
+  "cost": 60,
+  "hero": true,
+  "tradeBonusPercent": 15
+}

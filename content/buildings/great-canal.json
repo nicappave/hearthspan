@@ -1,0 +1,9 @@
+{
+  "id": "great-canal",
+  "name": "The Great Canal",
+  "eraId": "bronze",
+  "requiresTechId": "hydraulic-engineering",
+  "cost": 120,
+  "hero": true,
+  "foodBonusPercent": 15
+}

@@ -1,0 +1,12 @@
+{
+  "id": "encourage-crafts",
+  "name": "Encourage Crafts",
+  "eraId": "bronze",
+  "requiresTechId": "pottery",
+  "cost": 20,
+  "upkeepPerTurn": 1,
+  "channel": "Trade",
+  "amountNumerator": 25,
+  "amountDenominator": 100,
+  "radius": 3
+}

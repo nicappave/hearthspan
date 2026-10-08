@@ -1,0 +1,9 @@
+{
+  "id": "carpenters-yard",
+  "name": "Carpenters' Yard",
+  "eraId": "neolithic",
+  "requiresTechId": "woodworking",
+  "cost": 20,
+  "hero": false,
+  "productionBonusPercent": 6
+}

@@ -1,0 +1,7 @@
+{
+  "id": "basketry",
+  "name": "Basketry",
+  "eraId": "neolithic",
+  "cost": 15,
+  "prereqIds": ["gathering"]
+}

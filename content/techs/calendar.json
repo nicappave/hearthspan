@@ -1,0 +1,7 @@
+{
+  "id": "calendar",
+  "name": "Calendar",
+  "eraId": "bronze",
+  "cost": 40,
+  "prereqIds": ["ritual", "tribal-lore"]
+}

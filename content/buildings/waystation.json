@@ -1,0 +1,9 @@
+{
+  "id": "waystation",
+  "name": "The Waystation",
+  "eraId": "bronze",
+  "requiresTechId": "caravans",
+  "cost": 80,
+  "hero": true,
+  "safetyBonusPercent": 10
+}

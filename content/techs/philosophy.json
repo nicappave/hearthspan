@@ -1,0 +1,7 @@
+{
+  "id": "philosophy",
+  "name": "Philosophy",
+  "eraId": "classical",
+  "cost": 70,
+  "prereqIds": ["writing", "currency"]
+}

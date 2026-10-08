@@ -1,0 +1,23 @@
+{
+  "nodeCount": 2000,
+  "sampledFrames": 180,
+  "drawMicros": {
+    "min": 8255,
+    "p50": 19850,
+    "p95": 22906,
+    "max": 24466
+  },
+  "hitTestMicros": {
+    "min": 11,
+    "p50": 23,
+    "p95": 36,
+    "max": 47
+  },
+  "frameMicros": {
+    "min": 12280,
+    "p50": 25154,
+    "p95": 28681,
+    "max": 30176
+  },
+  "impliedFps": 39.75510853144629
+}
